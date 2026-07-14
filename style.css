@@ -75,7 +75,7 @@ nav a:hover{
 }
 
 .secondary-btn:hover{
-    background:#fff;
+    background:#ef2727;
     color:#000;
 }
 
@@ -151,7 +151,7 @@ nav a:hover{
 }
 
 .service-box{
-    background:#132235;
+    background:#1e5091;
     padding:35px;
     border-radius:20px;
     width:320px;
@@ -168,7 +168,7 @@ nav a:hover{
 .menu-toggle{
     display:none;
     font-size:28px;
-    color:#fff;
+    color:#0e0a0a;
     cursor:pointer;
 }
 
@@ -232,4 +232,240 @@ nav a:hover{
     .service-box{
         width:100%;
     }
+}
+/* ABOUT */
+.about{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+    padding:90px 8%;
+    flex-wrap:wrap;
+    background:#1d1d1c;
+}
+
+.about-img img{
+    width:500px;
+    max-width:100%;
+    border-radius:15px;
+}
+
+.about-content{
+    flex:1;
+    min-width:300px;
+}
+
+.about-content h2{
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.about-content p{
+    color:#f4f6f4;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.about-boxes{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.about-boxes .box{
+    background:#030303;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    min-width:120px;
+    transition:.3s;
+}
+
+.about-boxes .box:hover{
+    background:#d4af37;
+    color:#2e2121;
+}
+
+/* WHY CHOOSE */
+.choose{
+    padding:90px 8%;
+    background:#9e2424;
+    text-align:center;
+}
+
+.choose h2{
+    font-size:38px;
+    margin-bottom:50px;
+}
+
+.choose-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.choose-card{
+    background:#484545;
+    padding:35px;
+    border-radius:15px;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.choose-card:hover{
+    transform:translateY(-10px);
+}
+
+.choose-card i{
+    font-size:40px;
+    color:#d4af37;
+    margin-bottom:20px;
+}
+
+.choose-card h3{
+    margin-bottom:15px;
+}
+
+/* PROCESS */
+.process{
+    padding:90px 8%;
+    text-align:center;
+}
+
+.process h2{
+    font-size:38px;
+    margin-bottom:50px;
+}
+
+.process-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.step{
+    background:#403737;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.step:hover{
+    transform:translateY(-10px);
+}
+
+.step span{
+    display:inline-flex;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#d4af37;
+    color:#2b0606;
+    align-items:center;
+    justify-content:center;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.about{
+    flex-direction:column;
+    text-align:center;
+}
+
+.about-boxes{
+    justify-content:center;
+}
+
+.about-content h2,
+.choose h2,
+.process h2{
+    font-size:30px;
+}
+
+}
+/* CONTACT */
+.contact{
+    padding:90px 8%;
+    background:#132235;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.contact p{
+    color:#3b2c2c;
+    margin-bottom:15px;
+}
+
+.contact-info{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin:35px 0;
+}
+
+.contact-info div{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.contact-info i{
+    color:#49402d;
+    font-size:22px;
+}
+
+.contact .btn{
+    display:inline-block;
+    margin-top:20px;
+}
+
+/* FOOTER */
+footer{
+    background:#050b13;
+    padding:20px;
+    text-align:center;
+}
+
+footer p{
+    color:#e22727;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+    .contact-info{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .contact h2{
+        font-size:30px;
+    }
+
+}
+.choose-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    margin-bottom:20px;
+}
+
+.choose-card{
+    overflow:hidden;
+}
+
+.choose-card img:hover{
+    transform:scale(1.05);
+    transition:.4s;
 }
