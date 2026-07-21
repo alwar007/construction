@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section style="padding:100px 8%; min-height:100vh;">
+<h1>Privacy Policy</h1>
+
+<p>
+We respect your privacy. Any information shared through this website
+will only be used to respond to your enquiries and provide our real
+estate services. We do not sell or share your personal information
+with third parties without your consent.
+</p>
+
+<br>
+
+<a href="index.html" class="primary-btn">← Back to Home</a>
+
+</section>
+
+</body>
+</html>

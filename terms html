@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms & Conditions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section style="padding:100px 8%; min-height:100vh;">
+<h1>Terms & Conditions</h1>
+
+<p>
+By using this website, you agree to the terms and conditions of
+Stackly Dream Estate. Property details are subject to change without
+prior notice. Please contact us for the latest information before
+making any decisions.
+</p>
+
+<br>
+
+<a href="index.html" class="primary-btn">← Back to Home</a>
+
+</section>
+
+</body>
+</html>

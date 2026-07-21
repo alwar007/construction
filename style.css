@@ -394,6 +394,10 @@ nav ul li a.active{
     background:#050b13;
     padding:70px 8% 25px;
 }
+.footer{
+    background:#050b13;
+    padding:80px 8% 30px;
+}
 
 .footer-container{
     max-width:1200px;
@@ -402,7 +406,9 @@ nav ul li a.active{
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:40px;
 }
-
+.footer-box{
+    padding:10px;
+}
 .footer-box h3{
     color:#ffb400;
     margin-bottom:20px;
@@ -410,8 +416,9 @@ nav ul li a.active{
 }
 
 .footer-logo{
-    width:150px;
-    margin-bottom:20px;
+    width:160px;
+    margin:0 auto 20px;
+    display:block;
 }
 
 .footer-box p,
@@ -433,6 +440,7 @@ nav ul li a.active{
 
 .footer-box a:hover{
     color:#ffb400;
+    padding-left:6px;
 }
 
 .footer-box i{
@@ -492,7 +500,7 @@ nav ul{
 .hero{
     flex-direction:column-reverse;
     text-align:center;
-    padding:60px 20px;
+    padding:140px 20px 60px;
 }
 
 .content h1{
@@ -520,9 +528,19 @@ nav ul{
     flex-direction:column;
 }
 
+.choose-card,
+.step,
+.contact-info div{
+    width:100%;
+}
+
 .footer-container{
     grid-template-columns:1fr;
     text-align:center;
+}
+
+.footer-box{
+    margin-bottom:20px;
 }
 
 .footer-logo{
